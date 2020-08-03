@@ -2,7 +2,8 @@ import styled from 'styled-components';
 
 export const HeaderWrapper = styled.header`
   max-width: 1200px;
-  box-shadow: 0 4px 10px var(--color-line-in-white);
+  box-shadow: 0 4px 10px var(--color-header-shadow);
+  background: var(--color-header);
   margin: 0 auto;
 `;
 
@@ -15,7 +16,7 @@ export const HeaderNav = styled.nav`
 `;
 
 export const HeaderName = styled.h1`
-  color: var(--color-text-complement);
+  color: var(--color-header-title);
 `;
 
 export const HeaderImageWrapper = styled.div`
