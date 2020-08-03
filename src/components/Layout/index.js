@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Header from '../Header';
+import Navbar from '../Navbar';
 import Footer from '../Footer';
 import GlobalStyles from '../../assets/styles/global';
 
@@ -10,8 +11,10 @@ const Layout = () => {
   return (
     <S.LayoutWrapper>
       <GlobalStyles />
-      <Header />
+      <Header title="Junior Alves" />
       <Footer />
+
+      <Navbar />
     </S.LayoutWrapper>
   );
 };
