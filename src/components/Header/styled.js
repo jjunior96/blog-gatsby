@@ -1,7 +1,10 @@
 import styled from 'styled-components';
 
 export const HeaderWrapper = styled.header`
+  width: 100%;
   max-width: 1200px;
+  top: 0;
+  position: fixed;
   box-shadow: 0 4px 10px var(--color-header-shadow);
   background: var(--color-header);
   margin: 0 auto;

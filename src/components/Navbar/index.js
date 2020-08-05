@@ -1,7 +1,5 @@
 import React from 'react';
 
-// import { Home } from 'styled-icons/entypo/';
-
 // eslint-disable-next-line import/no-extraneous-dependencies
 import { Home } from '@styled-icons/boxicons-regular/Home';
 // eslint-disable-next-line import/no-extraneous-dependencies
