@@ -15,18 +15,19 @@ export const HeaderNav = styled.nav`
   justify-content: space-between;
   align-items: center;
 
-  padding: 2rem;
+  padding: 0.8rem 2rem;
 `;
 
 export const HeaderName = styled.h1`
+  font-size: 1.5rem;
   color: var(--color-header-title);
 `;
 
 export const HeaderImageWrapper = styled.div`
   overflow: hidden;
   border-radius: 50%;
-  max-width: 5rem;
-  max-height: 5rem;
+  max-width: 4rem;
+  max-height: 4rem;
   background-position: center;
   background-size: cover;
 `;

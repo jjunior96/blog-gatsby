@@ -1,12 +1,15 @@
 import React from 'react';
 
+import PostItem from '../PostItem';
+
 import * as S from './styled';
 
 const PostList = () => {
   return (
     <S.PostListWrapper>
+      <S.PostListTitle>Posts</S.PostListTitle>
       <S.PostListItem>
-        Teste <br />
+        <PostItem />
       </S.PostListItem>
     </S.PostListWrapper>
   );

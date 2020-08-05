@@ -9,19 +9,19 @@ export const NavbarWrapper = styled.nav`
 `;
 
 export const NavbarContent = styled.div`
-  padding: 3rem 2rem;
+  padding: 1.5rem 2rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
 `;
 
 export const NavbarIconWrapper = styled.div`
-  width: 3rem;
+  width: 2rem;
   overflow: hidden;
   color: var(--color-navitem-disabled);
   border-radius: 50px;
 
   &:last-child {
-    margin-left: 2rem;
+    /* margin-left: 2rem; */
   }
 `;
