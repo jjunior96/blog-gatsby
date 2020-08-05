@@ -4,10 +4,25 @@ const GlobalStyles = createGlobalStyle`
   :root {
   /* 9.6px */
   font-size: 60%;
+  
+  /* Dark Mode */
+  /* --color-background: #39424E; */
 
-  --color-background: #dfe6e9;
-  --color-header: #e7eef1;
-  --color-header-title: #636e72;
+  /*  
+    #39424E
+    #90949A
+    #ECEDEE
+    #242B35
+    #FFFFFF
+  */
+
+  /* --color-background: #dfe6e9; */
+
+  --color-background: #e8edf3;
+  --color-header: #e8edf3;
+  
+  --color-navitem-disabled: #90949a;
+  --color-header-title: #242B35;
   --color-header-shadow: #b2bec3;
 
   --color-primary-lighter: #9871f5;

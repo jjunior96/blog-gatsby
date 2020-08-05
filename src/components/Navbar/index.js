@@ -9,16 +9,23 @@ import { ListUl } from '@styled-icons/boxicons-regular/ListUl';
 // eslint-disable-next-line import/no-extraneous-dependencies
 import { MoreHorizontal as More } from '@styled-icons/evaicons-solid/MoreHorizontal';
 // eslint-disable-next-line import/no-extraneous-dependencies
-import { Lightbulb } from '@styled-icons/fa-solid/Lightbulb';
+import { LightBulb } from '@styled-icons/heroicons-solid/LightBulb';
+
+// Luz apagada
+// @styled-icons/heroicons-outline/LightBulb
 
 import * as S from './styled';
+
+const style = {
+  color: '#242B35',
+};
 
 const Navbar = () => {
   return (
     <S.NavbarWrapper>
       <S.NavbarContent>
         <S.NavbarIconWrapper>
-          <Home />
+          <Home style={style} />
         </S.NavbarIconWrapper>
 
         <S.NavbarIconWrapper>
@@ -30,7 +37,7 @@ const Navbar = () => {
         </S.NavbarIconWrapper>
 
         <S.NavbarIconWrapper>
-          <Lightbulb />
+          <LightBulb />
         </S.NavbarIconWrapper>
       </S.NavbarContent>
     </S.NavbarWrapper>

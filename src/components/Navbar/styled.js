@@ -15,21 +15,11 @@ export const NavbarContent = styled.div`
   justify-content: space-between;
 `;
 
-// export const NavbarIconsLeft = styled.div`
-//   display: flex;
-//   align-items: center;
-// `;
-
-// export const NavbarIconsRight = styled.div`
-//   display: flex;
-//   align-items: center;
-// `;
-
 export const NavbarIconWrapper = styled.div`
   width: 3rem;
   overflow: hidden;
-  color: #fff;
-  /* border-radius: 50%; */
+  color: var(--color-navitem-disabled);
+  border-radius: 50px;
 
   &:last-child {
     margin-left: 2rem;
