@@ -16,12 +16,8 @@ export const NavbarContent = styled.div`
 `;
 
 export const NavbarIconWrapper = styled.div`
-  width: 2rem;
+  width: 2.4rem;
   overflow: hidden;
   color: var(--color-navitem-disabled);
   border-radius: 50px;
-
-  &:last-child {
-    /* margin-left: 2rem; */
-  }
 `;
